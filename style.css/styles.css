@@ -1,0 +1,375 @@
+/* & General styles (SITEWIDE)*/
+
+.beginning {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.beginning__content {
+    width: 1200px;
+    display: flex;
+    align-items: flex-start;
+    
+    
+    
+}
+
+
+/* & typography*/
+
+
+html {
+    font-family: inter;
+    font-size: 18px;
+    color: #7E7E7E;
+
+}
+
+
+
+/* & Header*/
+
+
+.beginning-line {
+    
+    background: #F2F2F2;
+    color: #1C2752;
+    padding: 19px 0 ;
+    
+}
+
+.beginning-line .beginning__content{
+    justify-content: space-between;
+}
+
+.beginning__line-social {
+    display: flex;
+    gap: 17px;
+}
+
+.beginning__line-social a {
+    width: 10px;
+    height: 10px;
+}
+
+/* & contact */
+
+.contact-content {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+.contact-content .beginning__content {
+    justify-content: space-between;
+}
+
+.content__header {
+    display: flex;
+    align-items: center; 
+}
+
+.contact__header-title {
+    font-size: 35px;
+    color: #1C2752;
+    font-family: mulish;
+    font-weight: 800; 
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+
+.contact__about {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.contact__info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact__icon {
+    width: 68px;
+    height: 68px;
+    background-color: rgb(90, 75, 153);
+    border-radius: 50%;
+    background-image: url(../image/icons/mailicon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact__icon-fone{
+    background-image: url(../image/icons/callicon.svg);
+}
+
+.contact__title {
+    font-family: mulish;
+    font-weight: 700;
+    color: #1C2752;
+}
+
+.conatc__text {
+    font-family: inter;
+    font-weight: 400;
+}
+
+/* & navigeishon*/
+.navigeishon {
+    position: relative;
+    top: 66px;
+}
+
+/* & section*/
+
+.travel {
+    background-image: url(../image/travel.jpg);
+    height: 924px;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.navigation {
+    background-color: #1C2752;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 14px ;
+    text-align: center;
+}
+
+.travel__menu {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    
+    
+}
+
+.travel__menu ,a {
+text-decoration: none;
+color: aliceblue;
+}
+
+.travel__cta {
+    padding: 20px;
+    background-color: #7E7E7E;
+}
+
+.travel__name {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+}
+.travel .beginning__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.travel__span {
+    background-color: rgba(47, 57, 138, 0.662);
+    padding: 12px 16px 12px 52px;
+    color: black;
+    background-image: url(../image/icons/radiusicon.png);
+    background-repeat: no-repeat;
+    background-position: 9px 9px;
+    font-family: inter;
+    font-weight: 500;
+}
+
+.travel__h1 {
+    font-family: mulish;
+    font-weight: 800;
+    font-size: 60px;
+    color: white;
+    width: 800px;
+}
+
+.travel__buttom {
+    background-color: #7E7E7E;
+    padding: 20px 33px;
+
+}
+
+/* & mein */
+
+
+
+
+/* & experience */
+
+.experience {
+    padding-top: 150px;
+    gap: 38px ;
+}
+
+.experience__about {
+    width: 600px;
+    padding-top: 23px;
+    padding-bottom: 23px;  
+    flex-direction: column;
+}
+
+.experience__span {
+    background-color: #2e439987;
+    padding-top: 12px;
+    padding-left: 48px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    font-weight: 500;
+    color: white;
+    background-image: url(../image/icons/icon.svg);
+    background-repeat: no-repeat;
+    background-position: 12px 12px;
+}
+
+.experience__h2 {
+    font-weight: 800;
+    font-size: 48px;
+    color: #1C2752;
+}
+.experirnce__secondabout {
+    display: flex;
+    background-color:#2e439987;
+    width: 175px;
+    height: 195px;
+}
+
+.experirnce__ending {
+    padding: 30px 30px;
+    align-items: center;
+}
+
+.experience__title {
+    font-size: 90px;
+    color: white;
+}
+
+.experience__theend {
+    color: white;
+    font-weight: 800;
+    font-size: 20;
+    text-align: center;
+}
+
+.experience__div {
+    width: 319px;
+    height: 136px;
+    padding-left: 40px;
+}
+
+
+/* & finances*/
+
+.finances-section  {
+    display: flex;
+    
+    background-image: url(../image/3_20_2023\ 11_31_04\ PM.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height:  750px;
+    padding-top: 150px;
+}
+
+.finances__mein {
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.finances__h2 {
+    font-family: mulish;
+    font-weight: 800;
+    font-size: 45px;
+    color: white;
+}
+
+.finances__text {
+    font-family: inter;
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.finances__button {
+    display: flex;
+    gap: 74px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.finances__link {
+    border: solid rgb(255, 255, 255);
+    padding:  20px 31px  20px  74px;
+  
+}
+
+.finances__link-white {
+    background-color: white;
+    color: black;
+    background-image: url(../image/firstlink.png);
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    background-position: 27px 12px;
+}
+
+.finances__link-first {
+    background-image: url(../image/secondlink.png);
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    background-position: 27px 12px;
+    background-color: #7E7E7E;
+}
+
+.finances__link-second {
+    background-image: url(../image/nexticon.png);
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    background-position: 27px 12px;
+    background-color: #7E7E7E;
+}
+
+.finances__contents {
+    background-color: #7E7E7E;
+    height: 510px;
+
+}
+
+.finances__about {
+    display: flex;
+    align-items: center;
+    width: 1065 px;
+    padding: 60px 66px 60px 66px;
+}
+
+.finances__contents-span {
+    background-image: url(../image/nexticon.png);
+    background-size: 28px 28px;
+    background-position: 8px 5px;
+    background-repeat: no-repeat;
+    background-color: rgba(47, 57, 138, 0.662);
+    color: white;
+    padding: 8px 16px 8px 50px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+

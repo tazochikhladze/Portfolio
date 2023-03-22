@@ -1,12 +1,12 @@
 /* & General styles (SITEWIDE)*/
 
-.beginning {
+.mein {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.beginning__content {
+.mein__content {
     width: 1200px;
     display: flex;
     align-items: flex-start;
@@ -31,7 +31,7 @@ html {
 /* & Header*/
 
 
-.beginning-line {
+.mein-line {
     
     background: #F2F2F2;
     color: #1C2752;
@@ -39,16 +39,16 @@ html {
     
 }
 
-.beginning-line .beginning__content{
+.mein-line .mein__content{
     justify-content: space-between;
 }
 
-.beginning__line-social {
+.mein-line__social {
     display: flex;
     gap: 17px;
 }
 
-.beginning__line-social a {
+.mein__line-social a {
     width: 10px;
     height: 10px;
 }
@@ -60,7 +60,7 @@ html {
     align-items: center;
     padding-top: 30px;
 }
-.contact-content .beginning__content {
+.contact-content .mein__content {
     justify-content: space-between;
 }
 
@@ -114,16 +114,20 @@ html {
     color: #1C2752;
 }
 
-.conatc__text {
+.contact__text {
     font-family: inter;
     font-weight: 400;
 }
+
+
 
 /* & navigeishon*/
 .navigeishon {
     position: relative;
     top: 66px;
 }
+
+
 
 /* & section*/
 
@@ -167,7 +171,7 @@ color: aliceblue;
     flex-direction: column;
     justify-content: center;
 }
-.travel .beginning__content {
+.travel .mein__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -266,103 +270,49 @@ color: aliceblue;
 }
 
 
-/* & finances*/
+/* & srvices*/
 
-.finances-section  {
-    display: flex;
-    
-    background-image: url(../image/3_20_2023\ 11_31_04\ PM.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    height:  750px;
-    padding-top: 150px;
+.services {
+    background-color: rgb(25, 25, 119);
+    height:890px ;
+    margin-top: 150px;
 }
 
-.finances__mein {
-    margin: 0 auto;
+.services .mein__contact  {
     text-align: center;
-    
+
 }
 
-.finances__h2 {
+.services__h2 {
+    color: white;
     font-family: mulish;
     font-weight: 800;
     font-size: 45px;
-    color: white;
 }
 
-.finances__text {
+.services__text {
     font-family: inter;
     font-weight: 400;
-    color: white;
     font-size: 18px;
-    display: flex;
-    justify-content: center;
     text-align: center;
 }
 
-.finances__button {
-    display: flex;
-    gap: 74px;
-    padding: 15px;
-    justify-content: center;
+.services__button {
+    padding: 20px;
+    display: inline-flex;
+    gap: 45px;
+
 }
 
-.finances__link {
-    border: solid rgb(255, 255, 255);
-    padding:  20px 31px  20px  74px;
-  
+.services__link {
+    border: solid black;
+    padding: 20px 30px 20px 74px;
 }
 
-.finances__link-white {
+.services__link-white {
     background-color: white;
     color: black;
-    background-image: url(../image/firstlink.png);
-    background-repeat: no-repeat;
-    background-size: 36px 36px;
-    background-position: 27px 12px;
 }
-
-.finances__link-first {
-    background-image: url(../image/secondlink.png);
-    background-repeat: no-repeat;
-    background-size: 36px 36px;
-    background-position: 27px 12px;
-    background-color: #7E7E7E;
-}
-
-.finances__link-second {
-    background-image: url(../image/nexticon.png);
-    background-repeat: no-repeat;
-    background-size: 36px 36px;
-    background-position: 27px 12px;
-    background-color: #7E7E7E;
-}
-
-.finances__contents {
-    background-color: #7E7E7E;
-    height: 510px;
-
-}
-
-.finances__about {
-    display: flex;
-    align-items: center;
-    width: 1065 px;
-    padding: 60px 66px 60px 66px;
-}
-
-.finances__contents-span {
-    background-image: url(../image/nexticon.png);
-    background-size: 28px 28px;
-    background-position: 8px 5px;
-    background-repeat: no-repeat;
-    background-color: rgba(47, 57, 138, 0.662);
-    color: white;
-    padding: 8px 16px 8px 50px;
-    
-}
-
 
 
 
